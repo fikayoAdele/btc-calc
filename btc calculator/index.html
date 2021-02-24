@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url('images/btc6.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+           
+
+            .container{
+                width: 420px;
+                height:300px;
+                margin-left: 450px;
+                margin-top: 240px;
+                text-align: center;
+               
+            }
+
+            #header{
+                font-size:16px;
+                font-weight: 640;
+                text-transform: capitalize;
+                font-size: 260%;
+                color:rgba(145, 220, 223, 0.975);
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serifs;
+            }
+
+            .myForm input[type="text"] {
+            padding:8px;
+            padding-right:20px;
+            width:30%;
+            border:0.3px solid rgba(151, 181, 204, 0.852);
+            background-color: rgba(202, 226, 218, 0.845);
+            border-radius: 70px;
+            margin-top: 38px;
+            margin-bottom: 38px;
+            }
+
+            .form-group{
+                display: inline;
+                padding-right: 20px;
+                margin-left: 15px;
+            }
+
+            .forbuttons{
+                width:25%;
+                height:12%;
+                border-radius: 60px;
+                background-color:rgba(229, 240, 236, 0.845);
+                margin-bottom: 20px;
+                color:rgb(18, 18, 22);
+                margin-top: 20px;
+                outline: none;
+                border: none;
+                border-color: transparent !important;
+            }
+
+    
+           #marginB{
+               padding-left: 20px;
+           }
+
+           input:hover{
+            color: #57b846;
+            border-color: #57b846;
+           }
+
+
+        
+        </style>
+    </head>
+    <title> </title
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">>
+    <body id ="page">
+
+        <div class="container">
+
+            <h id="header"> btc  calculator </h>
+
+            <form class ="myForm"> 
+       
+                <div class="form-group">
+                    <input type="text" id="btcForm" placeholder="enter BTC ">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="ngnForm" placeholder="NGN">
+                </div>
+
+                <div id ="marginB"> 
+                    <input class="forbuttons" id="con2n" type="submit"  value="convert2naira" >
+                    <input class="forbuttons" id="con2btc" type="submit"  value="convert2btc">
+                    <input class="forbuttons" id="clearF" type="submit"  value="clear">
+                </div>
+        
+     <script src="main.js"></script>
+    </body>
+</html>
